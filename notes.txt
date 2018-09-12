@@ -1,0 +1,10 @@
+Explain the edit distance algorithm 
+
+Given two trings and operations (insert, remove, replace), find minimm number of eidts to turn str1 to str2. 
+
+1. If last characters the same, do nothing and recur call m-1 and n-1. 
+2. Else, consider all 3 operations, return 1 + min numbers of the following 
+a. Insert: recur for m and n-1 
+b. Remove: recur for m-1 and n 
+c. replace: recur for m-1 and n-1 
+
