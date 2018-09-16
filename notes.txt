@@ -13,6 +13,9 @@ c. replace: recur for m-1 and n-1
 
 Explain the difference btween controlled and uncontrolled components 
 
+
+
+
 controlled componenets maintain their own sate (this.state, setState) as with used for form data with onChange. the componenet keeps its form data 
 with uncontrolled componeents, form data is handled by the dom.  you would use .createRef() to get data from an input element when the data is needed 
 
